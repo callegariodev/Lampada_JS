@@ -9,7 +9,7 @@ function verificalamp() {
 function lampON() {
   if (!verificalamp()) {
     lamp.src = "./img/ligada.png";
-  } else window.alert("Lampada Quebrda");
+  } else window.alert("Lampada Quebrda, reinicie a página!"");
 }
 
 function lampoff() {
